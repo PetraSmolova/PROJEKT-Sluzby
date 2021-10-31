@@ -191,7 +191,7 @@ body {
     flex-grow: 1;
     max-width: 425px;
     flex: 0 0 calc(50% - 30px);
-    flex-grow: 1;
+    align-items: center;
     order: 2;
   }
 
@@ -205,6 +205,7 @@ body {
   .textDva {
     order: 2;
     margin-left: 60px;
+    flex: 0 0 calc(50% - 30px);
   }
 
   .textTri {
@@ -233,3 +234,4 @@ body {
   .cara {
     margin-left: 0;
   }
+}
