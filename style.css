@@ -182,18 +182,20 @@ body {
 
   .jedna,
   .dva {
-    margin-bottom: 80px;
+    margin: auto 0 80px 0;
   }
 
-
-
   .turista {
-    margin: 0;
-    flex-grow: 1;
-    max-width: 425px;
-    flex: 0 0 calc(50% - 30px);
-    align-items: center;
+    margin: 0 auto 0 auto;
     order: 2;
+    flex: 1 1 calc(50% - 30px);
+  }
+
+  .pan {
+    max-width: 425px;
+    width: 100%;
+    margin-left: 95px;
+
   }
 
   .textJedna {
