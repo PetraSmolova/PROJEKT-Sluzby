@@ -1,0 +1,235 @@
+body {
+  margin: 60px 20px 57px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fafafa;
+}
+
+.turista {
+  margin: 0 auto 40px auto;
+  width: 350px;
+}
+
+.nadpis1 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+}
+
+.cara {
+  width: 60px;
+  height: 2px;
+  background-color: #407bff;
+  margin: 10px auto 30px auto;
+}
+
+.nadpis2 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.cestovaciText {
+  color: #8b8b8b;
+  font-size: 16px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.ramecek {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px #407BFF1F;
+  background-color: white;
+  padding: 32px 20px 20px 20px;
+
+}
+
+.obrazky {
+  padding-right: 30px;
+}
+
+
+.prostredni {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rameckovyText {
+  font-size: 13px;
+  color: #8b8b8b;
+  line-height: 17px;
+}
+
+.tlacitkovyText {
+  display: block;
+  color: white;
+  font-size: 14px;
+}
+
+.tlacitko {
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.dobrodruzstvi {
+  background-color: #407bff;
+  margin: 30px auto 10px auto;
+  width: 195px;
+}
+
+.pohoda {
+  background-color: #8b8b8b;
+  margin: 0 auto 10px auto;
+  width: 220px;
+}
+
+.horni {
+  margin-top: 30px;
+}
+
+@media (min-width: 640px) {
+  body {
+    margin: 0;
+  }
+
+  .turista {
+    margin: 60px auto 30px auto;
+  }
+
+  .cestovaciText {
+    margin: auto 110px auto 110px;
+  }
+
+  .tlacitka {
+    display: flex;
+  }
+
+  .nadpis2 {
+    margin-top: 0;
+  }
+  .ramecek {
+    display: block;
+    width: calc((100% - 80px)/ 3);
+    height: 170px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .prostredni {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .ramecky {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .prvni {
+    margin-bottom: 80px;
+  }
+
+  .druhy {
+    margin-bottom: 57px;
+  }
+
+  .obrazky {
+    display: block;
+    margin: 40px auto 20px auto;
+    padding-right: 0;
+  }
+
+  .rameckovyText {
+    padding: 0 15px 40px 15px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .pohoda {
+    margin: 30px auto 80px 20px;
+  }
+
+  .dobrodruzstvi {
+    margin: 30px 0 80px auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  body {
+    margin: 60px 80px;
+  }
+
+  .cestovaciText {
+    text-align: left;
+    margin: 0;
+  }
+  
+  .nadpis1,
+  .nadpis2 {
+    text-align: left;
+  }
+
+  .jedna,
+  .dva,
+  .tri {
+    display: flex;
+    align-items: center;
+  }
+
+  .jedna,
+  .dva {
+    margin-bottom: 80px;
+  }
+
+
+
+  .turista {
+    margin: 0;
+    flex-grow: 1;
+    max-width: 425px;
+    flex: 0 0 calc(50% - 30px);
+    flex-grow: 1;
+    order: 2;
+  }
+
+  .textJedna {
+    order: 1;
+    margin-right: 60px;
+    width: calc(50% - 30px);
+    align-items: center;
+  }
+
+  .textDva {
+    order: 2;
+    margin-left: 60px;
+  }
+
+  .textTri {
+    margin-right: 60px;
+  }
+
+  .prvni {
+    order: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .druhy {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .ramecek {
+    margin-top: 0;
+  }
+
+  .tlacitko {
+    margin: 30px 20px 0 0;
+  }
+  
+  .cara {
+    margin-left: 0;
+  }
