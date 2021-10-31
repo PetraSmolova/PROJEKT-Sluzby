@@ -159,7 +159,8 @@ body {
 
 @media (min-width: 1100px) {
   body {
-    margin: 60px 80px;
+    max-width: 1040px;
+    margin: 60px auto 60px auto;
   }
 
   .cestovaciText {
@@ -205,11 +206,12 @@ body {
   .textDva {
     order: 2;
     margin-left: 60px;
-    flex: 0 0 calc(50% - 30px);
+    flex: 0 0 calc(50% - 90px);
   }
 
   .textTri {
     margin-right: 60px;
+    flex: 0 0 calc(50% - 90px);
   }
 
   .prvni {
